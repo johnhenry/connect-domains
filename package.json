@@ -5,7 +5,6 @@
   "keywords": ["sub-domain","domain", "connect", "express", "middleware", "debug", "interactive"],
   "author": "John Henry <john@iamjohnhenry.com>",
   "homepage": "https://github.com/johnhenry/connect-domains",
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/johnhenry/connect-domains.git"
