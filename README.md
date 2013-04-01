@@ -12,9 +12,10 @@ var app = express();
 app.use(require('connect-domains')("example.com"));
 app.use(function(req,res){
     //when visiting "www.sub1.example.com"
-    console.log(req.domains[0]);//"example.com"
-    console.log(req.domains[1]);//"sub1"
-    console.log(req.domains[2]);//"www"
+    console.log(req.domains[0]);//#"example.com"
+    console.log(req.domains[1]);//#"sub1"
+    console.log(req.domains[2]);//#"www"
+    console.log(req.domains).join("/");//#"example.com/sub1/www"
 })
 app.listen(8080);
 ```
