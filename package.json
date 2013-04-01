@@ -1,0 +1,15 @@
+{
+  "name": "connect-domains",
+  "version": "0.0.1",
+  "description": "Parse req.headers.host into a heiarchy of domains and sub-domains populating the 'req.domains' object.",
+  "keywords": ["sub-domain","domain", "connect", "express", "middleware", "debug", "interactive"],
+  "author": "John Henry <john@iamjohnhenry.com>",
+  "homepage": "https://github.com/johnhenry/connect-domains",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/johnhenry/connect-domains.git"
+  },
+  "main": "index",
+  "engines": { "node": "0.8.x" }
+}
